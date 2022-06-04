@@ -16,6 +16,10 @@ body{
     height: 24px;
 }
 
+a{
+    text-decoration-line: none;
+}
+
 a.row__poster{
     width: 100%;
     object-fit: contain;
@@ -54,8 +58,24 @@ a.row__poster{
     margin-left: 20px;
 }
 
-.banner{
+.netflix{
     background-image: url(images/netflix-logo.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    height: 448px;
+}
+.watcha{
+    background-image: url(images/watcha-logo.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    object-fit: contain;
+    height: 448px;
+}
+.tving{
+    background-image: url(images/tving-logo.png);
     background-size: cover;
     background-position: center center;
     color: white;

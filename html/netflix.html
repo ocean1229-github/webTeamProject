@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- header starts -->
+        <div class="header">
+            <div class="header__left">
+                <!-- <i class="material-icons" id="menuBtn">menu</i> -->
+                <a href="index.html">
+                    <img src="images/team_logo.png" alt="">
+                </a>
+            </div>
+    
+            <div class="header__search">
+                <form action="">
+                    <input type="text" placeholder="Search" name="q" />
+                    <button><i class="material-icons">search</i></button>
+                </form>
+            </div>
+    
+            <div class="header__icons">
+                <a href="netflix.html">
+                    <img class="mini__logo" src="images/mini-netflix.png" alt="">
+                </a>
+                <a href="watcha.html">
+                    <img class="mini__logo" src="images/mini-watcha.png" alt="">
+                </a>
+                <a href="tving.html">
+                    <img class="mini__logo" src="images/mini-tving.png" alt="">
+                </a>
+                <a href="index.html">
+                    <i class="material-icons">home</i>
+                </a>
+                <i class="material-icons">notifications</i>
+                <i class="material-icons">account_circle</i>
+            </div>
+        </div>
+    <!-- header starts -->
+    <!-- <div class="header">
+        <div class="header__left">
+            <i class="material-icons">menu</i>
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+
+        <div class="header__search">
+            <form action="">
+                <input type="text" placeholder="Search" />
+                <button><i class="material-icons">search</i></button>
+            </form>
+        </div>
+
+        <div class="header__icons">
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </div> -->
+
+    <!-- main banner -->
+    <div class="banner netflix">
+        <div class="banner__contents">
+            <h1 class="banner__title">Netflix</h1>
+            <div class="banner__description">
+                넷플릭스는 각종 수상 경력에 빛나는 시리즈, 영화, 애니메이션, 다큐멘터리 등 다양한 콘텐츠를 인터넷 연결이 가능한 수천 종의 디바이스에서 시청할 수 있는 스트리밍입니다. 다함께 넷플릭스를 즐겨봐요!
+            </div>
+        </div>
+        <div class="banner--fadeBottom"></div>
+    </div>
+
+    <!-- Netflix Orginals -->
+    <div class="row">
+        <h2>드라마</h2>
+        <div class="row__posters">
+            <a href="#"><img src="images/netflix/D1__Mr.Sunshine.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D2__BeautyInside.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D3__HotelDelLuna.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D4__OurBeLovedSummer.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D5__2521.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D6__Friends.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D7__PrisonPlaybook.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D8__HospitalPlaylist.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D9__SKYCastle.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D10__BecauseThisIsMyFirstLife.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D11__18Again.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D12__TheWorldoftheMarried.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D13__Guardian.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D14__Nevertheless.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/D15__GossipGirl.jpg" alt="" class="row__poster row__posterLarge"></a>
+        </div>
+    </div>
+    <div class="row">
+        <h2>영화</h2>
+        <div class="row__posters">
+            <a href="#"><img src="images/netflix/M1__Assassination.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M2__AlongwiththeGods.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M3__Parasite.png" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M4__LaLaLand.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M5__EternalSunshine.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M6__LittleWomen.jpeg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M7__3Idiots.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M8__TrumanShow.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M9__FallinLoveatFirstKiss.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M10__OurTimes.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M11__Venom.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M12__Venom2.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M13__SpiderMan.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M14__ImitaionGame.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/M15__AboutTime.jpg" alt="" class="row__poster row__posterLarge"></a>
+        </div>
+    </div>
+    <div class="row">
+        <h2>오리지널</h2>
+        <div class="row__posters">
+            <a href="#"><img src="images/netflix/O1__AllofUsAreDead.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O2__StrangerThings.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O3__StrangerThings2.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O4__StrangerThings3.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O5__StrangerThings4.jpeg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O6__SquidGame.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O7__Bridgerton.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O8__Bridgerton2.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O9__DP.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O10__TheQueensGambit.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O11__MoneyHeist.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O12__Hellbound.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O13__Extracurricular.jpg" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O14__TheKissingBooth.png" alt="" class="row__poster row__posterLarge"></a>
+            <a href="#"><img src="images/netflix/O15__TheKissingBOoth2.jpg" alt="" class="row__poster row__posterLarge"></a>
+        </div>
+    </div>
+
+    <!-- Trending Now -->
+    <!-- <div class="row">
+        <h2>드라마</h2>
+        <div class="row__posters">
+            <img src="images/small-movie1.jpg" alt="" class="row__poster">
+            <img src="images/small-movie2.jpg" alt="" class="row__poster">
+            <img src="images/small-movie3.jpg" alt="" class="row__poster">
+            <img src="images/small-movie4.jpg" alt="" class="row__poster">
+            <img src="images/small-movie5.jpg" alt="" class="row__poster">
+            <img src="images/small-movie6.jpg" alt="" class="row__poster">
+            <img src="images/small-movie7.jpg" alt="" class="row__poster">
+            <img src="images/small-movie8.jpg" alt="" class="row__poster">
+            <img src="images/small-movie1.jpg" alt="" class="row__poster">
+            <img src="images/small-movie2.jpg" alt="" class="row__poster">
+            <img src="images/small-movie3.jpg" alt="" class="row__poster">
+            <img src="images/small-movie4.jpg" alt="" class="row__poster">
+            <img src="images/small-movie5.jpg" alt="" class="row__poster">
+            <img src="images/small-movie6.jpg" alt="" class="row__poster">
+            <img src="images/small-movie7.jpg" alt="" class="row__poster">
+            <img src="images/small-movie8.jpg" alt="" class="row__poster">
+        </div>
+    </div> -->
+
+    <!-- Top Rated -->
+    <!-- <div class="row">
+        <h2>영화</h2>
+        <div class="row__posters">
+            <img src="images/small-movie1.jpg" alt="" class="row__poster">
+            <img src="images/small-movie2.jpg" alt="" class="row__poster">
+            <img src="images/small-movie3.jpg" alt="" class="row__poster">
+            <img src="images/small-movie4.jpg" alt="" class="row__poster">
+            <img src="images/small-movie5.jpg" alt="" class="row__poster">
+            <img src="images/small-movie6.jpg" alt="" class="row__poster">
+            <img src="images/small-movie7.jpg" alt="" class="row__poster">
+            <img src="images/small-movie8.jpg" alt="" class="row__poster">
+            <img src="images/small-movie1.jpg" alt="" class="row__poster">
+            <img src="images/small-movie2.jpg" alt="" class="row__poster">
+            <img src="images/small-movie3.jpg" alt="" class="row__poster">
+            <img src="images/small-movie4.jpg" alt="" class="row__poster">
+            <img src="images/small-movie5.jpg" alt="" class="row__poster">
+            <img src="images/small-movie6.jpg" alt="" class="row__poster">
+            <img src="images/small-movie7.jpg" alt="" class="row__poster">
+            <img src="images/small-movie8.jpg" alt="" class="row__poster">
+        </div>
+    </div> -->
+
+    <!-- Action Movies -->
+    <!-- <div class="row">
+        <h2>오리지널</h2>
+        <div class="row__posters">
+            <img src="images/small-movie1.jpg" alt="" class="row__poster">
+            <img src="images/small-movie2.jpg" alt="" class="row__poster">
+            <img src="images/small-movie3.jpg" alt="" class="row__poster">
+            <img src="images/small-movie4.jpg" alt="" class="row__poster">
+            <img src="images/small-movie5.jpg" alt="" class="row__poster">
+            <img src="images/small-movie6.jpg" alt="" class="row__poster">
+            <img src="images/small-movie7.jpg" alt="" class="row__poster">
+            <img src="images/small-movie8.jpg" alt="" class="row__poster">
+            <img src="images/small-movie1.jpg" alt="" class="row__poster">
+            <img src="images/small-movie2.jpg" alt="" class="row__poster">
+            <img src="images/small-movie3.jpg" alt="" class="row__poster">
+            <img src="images/small-movie4.jpg" alt="" class="row__poster">
+            <img src="images/small-movie5.jpg" alt="" class="row__poster">
+            <img src="images/small-movie6.jpg" alt="" class="row__poster">
+            <img src="images/small-movie7.jpg" alt="" class="row__poster">
+            <img src="images/small-movie8.jpg" alt="" class="row__poster">
+        </div>
+    </div> -->
+    <!-- header ends -->
+</body>
+</html>
