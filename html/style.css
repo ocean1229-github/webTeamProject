@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -224,5 +227,57 @@ hr{
     height:1px;
     background-color: #e5e5e5;
     border: none;
+}
+
+.close{
+    float: right;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.popimg{
+    float: left;
+    padding: 50px;
+}
+
+.popimgtitle{
+    font-family: 'Anton', sans-serif;
+    font-size: 40pt;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.popactor{
+    font-family: 'Joan', serif;
+    font-size: 20pt;
+    padding: 0px 10px 15px 0px;
+}
+
+.popimgtext{
+    font-family: 'Joan', serif;
+    font-size: 12pt;
+    padding: 0px 30px 15px 0px;
+}
+
+/* 노가다 스타트~ */
+
+#popbeautyinside{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popHotelDelLuna{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
 }
 
