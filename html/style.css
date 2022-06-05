@@ -237,7 +237,12 @@ hr{
 
 .popimg{
     float: left;
-    padding: 50px;
+    padding: 70px 50px;
+}
+
+.popimg>img{
+    width: 340px;
+    height: 460px;
 }
 
 .popimgtitle{
@@ -261,6 +266,8 @@ hr{
 
 /* 노가다 스타트~ */
 
+/* Netflix */
+
 #popbeautyinside{
     width:80%;
     height:80%;
@@ -281,3 +288,15 @@ hr{
     left: 140px;
 }
 
+/* Watcha */
+
+/* Tving */
+#popliberation{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}

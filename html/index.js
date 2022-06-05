@@ -17,3 +17,12 @@ $(document).ready(function() {
         $('#popHotelDelLuna').hide();
     })
 })
+$(document).ready(function() {
+    $('#liberation').click(function() {
+        $('#popliberation').show();
+    })
+
+    $('.close').click(function() {
+        $('#popliberation').hide();
+    })
+})

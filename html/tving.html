@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="index.js"></script>
     <title>Tving</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -79,8 +80,8 @@
     <div class="row">
         <h2>드라마</h2>
         <div class="row__posters">
-            <a href="#"><img src="images/tiving/1.jfif" alt="" class="row__poster row__posterLarge"></a>
-            <a href="#"><img src="images/tiving/2.jfif" alt="" class="row__poster row__posterLarge"></a>
+            <img src="images/tiving/1.jfif" alt="" class="row__poster row__posterLarge" id="ourblues">
+            <img src="images/tiving/2.jfif" alt="" class="row__poster row__posterLarge" id="liberation">
             <a href="#"><img src="images/tiving/3.jfif" alt="" class="row__poster row__posterLarge"></a>
             <a href="#"><img src="images/tiving/4.jfif" alt="" class="row__poster row__posterLarge"></a>
             <a href="#"><img src="images/tiving/5.jfif" alt="" class="row__poster row__posterLarge"></a>
@@ -206,5 +207,23 @@
         </div>
     </div> -->
     <!-- header ends -->
+    <div id="popliberation">
+        <div class="popheader">
+            <div>
+                <div class="close"><i class="material-icons">close</i></div>
+            </div>
+        </div>
+        <div class="popimg">
+            <img src="images/tiving/2.jfif" alt="">
+        </div>
+        <div class="popcontent">
+            <div class="popimgtitle">The liberation of me</div>
+            <div class="popactor">Appearance: Lee Min- ki , Kim Ji -won , Son Seok - gu, Lee El , etc</div>
+            <div class="popimgtext">
+                Plot: We all want to be happy
+                The unbearably lovable happy life of three unbearably rustic siblings
+            </div>
+        </div>
+    </div>
 </body>
 </html>
