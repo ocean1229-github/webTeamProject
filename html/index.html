@@ -4,50 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- jquery -->
-    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- Google icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Wenvy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- header starts -->
-    <div class="header">
-        <div class="header__left">
-            <!-- <i class="material-icons" id="menuBtn">menu</i> -->
-            <a href="index.html">
-                <img src="images/team_logo.png" alt="">
-            </a>
+        <!-- header starts -->
+        <div class="header">
+            <div class="header__left">
+                <!-- <i class="material-icons" id="menuBtn">menu</i> -->
+                <a href="index.html">
+                    <img src="images/team_logo.png" alt="">
+                </a>
+            </div>
+    
+            <div class="header__search">
+                <form action="">
+                    <input type="text" placeholder="Search" name="q" />
+                    <button><i class="material-icons">search</i></button>
+                </form>
+            </div>
+    
+            <div class="header__icons">
+                <a href="netflix.html">
+                    <img class="mini__logo" src="images/mini-netflix.png" alt="">
+                </a>
+                <a href="watcha.html">
+                    <img class="mini__logo" src="images/mini-watcha.png" alt="">
+                </a>
+                <a href="tving.html">
+                    <img class="mini__logo" src="images/mini-tving.png" alt="">
+                </a>
+                <a href="index.html">
+                    <i class="material-icons">home</i>
+                </a>
+                <i class="material-icons">notifications</i>
+                <i class="material-icons">account_circle</i>
+            </div>
         </div>
-
-        <!-- <div class="header__search">
-            <form action="">
-                <input type="text" placeholder="Search" name="q" />
-                <button><i class="material-icons">search</i></button>
-            </form>
-        </div> -->
-
-        <div class="header__icons">
-            <a href="netflix.html">
-                <img class="mini__logo" src="images/mini-netflix.png" alt="">
-            </a>
-            <a href="watcha.html">
-                <img class="mini__logo" src="images/mini-watcha.png" alt="">
-            </a>
-            <a href="tving.html">
-                <img class="mini__logo" src="images/mini-tving.png" alt="">
-            </a>
-            <a href="index.html">
-                <i class="material-icons">home</i>
-            </a>
-            <i class="material-icons">notifications</i>
-            <i class="material-icons">account_circle</i>
+   
+    <!-- main banner -->
+    <div class="banner wenvy">
+        <div class="banner__contents">
+            <div class="logo__description">
+                <!--WENVY description-->
+            Watch various OTT dramas, movies, and original series at a glance.
+            </div>
         </div>
+        <div class="banner--fadeBottom"></div>
     </div>
 
-
+<div class="main">
+<div class="below">
+    <!-- watcha -->
+    <div class="row__main">
+        <div class="row__logo">
+            <a href="https://watcha.com/browse/video"><img src="images/small-logo__watcha.jpg" alt="" class="row__poster row__posterLarge logo__size1"></a>
+            <div class="platform__descripton1">
+            Unlike other OTT platforms, Watcha has a lot of Korean dramas.<br> There is a post-mortem system, so you can choose your work by referring to other people's reviews. Also, it serves a lot of unusual movies and dramas.
+         </div>
+            
+        </div>
+    </div>
+   <!-- netflix -->
+    <div class="row__main">
+        <div class="row__logo">
+         <div class="platform__descripton2">
+            Netflix, where about half of domestic paid OTT service users subscribe, has strong original content.<br> It is a content provided only by Netflix, and the content is solid because it has various materials and fewer restrictions than other broadcasting stations.
+         </div>
+            <a href="https://www.netflix.com/kr-en/"><img src="images/small-logo__netflix.jpg" alt="" class="row__poster row__posterLarge logo__size2"></a>
+            
+        </div>
+    </div>
+   <!-- tving -->
+    <div class="row__main">
+        <div class="row__logo">
+           <a href="https://watcha.com/browse/video"><img src="images/small-logo__tving.jpg" alt="" class="row__poster row__posterLarge logo__size1"></a>
+            <div class="platform__descripton1">
+            Since Tving is a CJ-based OTT platform, TVN and JTbc broadcasting such as New Journey to the West are mainly serviced.<br> It is the only OTT platform that provides replay of Tvn broadcasting.<br> Through the system called Tving Original, you can see dramas that can only be seen in Tving and videos of dramas.
+         </div>
+        </div>
+    </div>
+</div>
+</div>
 
 </body>
 </html>
