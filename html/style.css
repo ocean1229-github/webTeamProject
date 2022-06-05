@@ -299,7 +299,6 @@ hr{
     left: 140px;
 }
 
-<<<<<<< HEAD
 /* Watcha */
 
 /* Tving */
@@ -311,7 +310,8 @@ hr{
     position:fixed;
     top: 90px;
     left: 140px;
-=======
+}
+
 /*main page*/
 .row__main{
     color: white;
@@ -411,5 +411,4 @@ a.row__logo{
 
 .below{
     display: inline-block;
->>>>>>> de62089983f2563ed691db400f25940abfe6959f
 }
