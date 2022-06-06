@@ -379,11 +379,334 @@ $(document).ready(function() {
     })
 })
 
+
+/*Watcha*/
 $(document).ready(function() {
     $('#csi').click(function() {
         $('#popcsi').show();
     })
-$('.close').click(function() {
+
+    $('.close').click(function() {
         $('#popcsi').hide();
-    });
-});
+    })
+})
+
+$(document).ready(function() {
+    $('#act').click(function() {
+        $('#popact').show();
+    })
+
+    $('.close').click(function() {
+        $('#popact').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#goodwife').click(function() {
+        $('#popgoodwife').show();
+    })
+
+    $('.close').click(function() {
+        $('#popgoodwife').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#littledrumer').click(function() {
+        $('#poplittledrumer').show();
+    })
+
+    $('.close').click(function() {
+        $('#poplittledrumer').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#office').click(function() {
+        $('#popoffice').show();
+    })
+
+    $('.close').click(function() {
+        $('#popoffice').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#whywomenkill').click(function() {
+        $('#popwhywomenkill').show();
+    })
+
+    $('.close').click(function() {
+        $('#popwhywomenkill').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#years').click(function() {
+        $('#popyears').show();
+    })
+
+    $('.close').click(function() {
+        $('#popyears').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#doctorwho').click(function() {
+        $('#popdoctorwho').show();
+    })
+
+    $('.close').click(function() {
+        $('#popdoctorwho').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#diary').click(function() {
+        $('#popdiary').show();
+    })
+
+    $('.close').click(function() {
+        $('#popdiary').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#bigbang').click(function() {
+        $('#popbigbang').show();
+    })
+
+    $('.close').click(function() {
+        $('#popbigbang').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#skins').click(function() {
+        $('#popskins').show();
+    })
+
+    $('.close').click(function() {
+        $('#popskins').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#ele').click(function() {
+        $('#popele').show();
+    })
+
+    $('.close').click(function() {
+        $('#popele').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#com').click(function() {
+        $('#popcom').show();
+    })
+
+    $('.close').click(function() {
+        $('#popcom').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#ke').click(function() {
+        $('#popke').show();
+    })
+
+    $('.close').click(function() {
+        $('#popke').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#friends').click(function() {
+        $('#popfriends').show();
+    })
+
+    $('.close').click(function() {
+        $('#popfriends').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#mr').click(function() {
+        $('#popmr').show();
+    })
+
+    $('.close').click(function() {
+        $('#popmr').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#madmax').click(function() {
+        $('#popmadmax').show();
+    })
+
+    $('.close').click(function() {
+        $('#popmadmax').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#beginagain').click(function() {
+        $('#popbeginagain').show();
+    })
+
+    $('.close').click(function() {
+        $('#popbeginagain').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#beforesunshine').click(function() {
+        $('#popbeforesunshine').show();
+    })
+
+    $('.close').click(function() {
+        $('#popbeforesunshine').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#bigfish').click(function() {
+        $('#popbigfish').show();
+    })
+
+    $('.close').click(function() {
+        $('#popbigfish').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#billy').click(function() {
+        $('#popbilly').show();
+    })
+
+    $('.close').click(function() {
+        $('#popbilly').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#chicago').click(function() {
+        $('#popchicago').show();
+    })
+
+    $('.close').click(function() {
+        $('#popchicago').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#abouttime').click(function() {
+        $('#popabouttime').show();
+    })
+
+    $('.close').click(function() {
+        $('#popabouttime').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#whiplash').click(function() {
+        $('#popwhiplash').show();
+    })
+
+    $('.close').click(function() {
+        $('#popwhiplash').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#eternal').click(function() {
+        $('#popeternal').show();
+    })
+
+    $('.close').click(function() {
+        $('#popeternal').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#intern').click(function() {
+        $('#popintern').show();
+    })
+
+    $('.close').click(function() {
+        $('#popintern').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#littlewomen').click(function() {
+        $('#poplittlewomen').show();
+    })
+
+    $('.close').click(function() {
+        $('#poplittlewomen').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#hobbit1').click(function() {
+        $('#pophobbit1').show();
+    })
+
+    $('.close').click(function() {
+        $('#pophobbit1').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#hobbit2').click(function() {
+        $('#pophobbit2').show();
+    })
+
+    $('.close').click(function() {
+        $('#pophobbit2').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#hobbit3').click(function() {
+        $('#pophobbit3').show();
+    })
+
+    $('.close').click(function() {
+        $('#pophobbit3').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#error').click(function() {
+        $('#poperror').show();
+    })
+
+    $('.close').click(function() {
+        $('#poperror').hide();
+    })
+})
+
+$(document).ready(function() {
+    $('#unframed').click(function() {
+        $('#popunframed').show();
+    })
+
+    $('.close').click(function() {
+        $('#popunframed').hide();
+    })
+})
+   
+$(document).ready(function() {
+    $('#good').click(function() {
+        $('#popgood').show();
+    })
+
+    $('.close').click(function() {
+        $('#popgood').hide();
+    })
+})

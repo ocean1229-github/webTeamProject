@@ -281,6 +281,12 @@ hr{
     padding: 0px 10px 15px 0px;
 }
 
+.popdirector{
+    font-family: 'Joan', serif;
+    font-size: 20pt;
+    padding: 0px 10px 15px 0px;
+}
+
 
 .popactor{
     font-family: 'Joan', serif;
@@ -397,7 +403,328 @@ hr{
 
 
 /* Watcha */
+/* Watcha */
 #popcsi{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popact{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popgoodwife{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#poplittledrumer{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popoffice{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popwhywomenkill{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popyears{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popdoctorwho{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popdiary{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popbigbang{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popskins{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popele{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popcom{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popke{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popfriends{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popmr{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popmadmax{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popbeginagain{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popbeforesunshine{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popbigfish{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popbilly{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popchicago{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popabouttime{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popwhiplash{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popeternal{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popintern{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#poplittlewomen{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#pophobbit1{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#pophobbit2{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#pophobbit3{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#poperror{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popunframed{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+#popgood{
     width:80%;
     height:80%;
     background:#3d3d3d;
