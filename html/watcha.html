@@ -7,6 +7,7 @@
     <!-- Google icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>Watcha</title>
     <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -79,7 +80,8 @@
     <div class="row">
         <h2>드라마</h2>
         <div class="row__posters">
-            <a href="#"><img src="images/watcha/drama__CSI.jpg" alt="" class="row__poster row__posterLarge"></a>
+		    <img src="images/watcha/drama__CSI.jpg" alt="" class="row__poster row__posterLarge" id="csi">
+<!--             <a href="#"><img src="images/watcha/drama__CSI.jpg" alt="" class="row__poster row__posterLarge"></a> -->
             <a href="#"><img src="images/watcha/drama__TheAct.jpg" alt="" class="row__poster row__posterLarge"></a>
             <a href="#"><img src="images/watcha/drama__thegoodwife.jpg" alt="" class="row__poster row__posterLarge"></a>
             <a href="#"><img src="images/watcha/drama__TheLittleDrumerGirl.jpg" alt="" class="row__poster row__posterLarge"></a>
@@ -126,6 +128,27 @@
             <a href="#"><img src="images/watcha/or__good.png" alt="" class="row__poster row__posterLarge"></a>
         </div>
     </div>
+
+	<div id="popcsi">
+        <div class="popheader">
+            <div>
+                <div class="close"><i class="material-icons">close</i></div>
+            </div>
+        </div>
+        <div class="popimg">
+            <img src="images/watcha/drama__CSI.jpg" alt="">
+        </div>
+        <div class="popcontent">
+            <div class="popimgtitle">CSI: NY</div>
+         <div class="popgenre">Genre: Action, Crime, Drama</div>
+         <div class="popperiod">Broadcast period: 2004-2013</div>
+         <div class="popepisode">Number of broadcasts: 197 episodes</div>
+            <div class="popactor">Appearance: Gary Sinise, Carmine Giovinazzo, Hill Harper</div>
+            <div class="popimgtext">
+                CBS's successful CSI franchise gets transplanted to the Big Apple. Cases involving sewer rats as witnesses, a victim whose head was slammed in a pizzeria oven, and murders of commodities traders, and--of course--a Red Sox fan. CSI: NY is a bleaker, grimmer version of its Las Vegas and Miami cousins. The team is made up of a pleasantly New Yawk but indistinct cast of characters. The teams leader Detective Mac Taylor (Gary Sinise), is a former Marine from Chicago. Mac is a veteran of the NYPD who lost his wife on 9/11, and as such must work to rebuild his personal life while supervising his team. He is organized, efficient, dedicated, and very proper in his management style. His second in command for the first 6 seasons is Detective Stella Bonasera (Melina Kanakaredes), Stella is half-Greek, half-Italian, and entirely New York City. She helped Mac through the impact of his wife's death and has been by his side ever since. She is a savvy investigator, yet she often speaks before she thinks. Stella leaves New York to head a crime lab in New Orleans and is replaced by Detective Jo Danville (Sela Ward). </div>
+        </div>
+    </div>
+
 
     <!-- Trending Now -->
     <!-- <div class="row">

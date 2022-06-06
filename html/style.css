@@ -263,6 +263,25 @@ hr{
     padding-bottom: 15px;
 }
 
+.popgenre{
+    font-family: 'Joan', serif;
+    font-size: 20pt;
+    padding: 0px 10px 15px 0px;
+}
+
+.popperiod{
+    font-family: 'Joan', serif;
+    font-size: 20pt;
+    padding: 0px 10px 15px 0px;
+}
+
+.popepisode{
+    font-family: 'Joan', serif;
+    font-size: 20pt;
+    padding: 0px 10px 15px 0px;
+}
+
+
 .popactor{
     font-family: 'Joan', serif;
     font-size: 20pt;
@@ -279,8 +298,30 @@ hr{
 
 /* Netflix */
 
-#popbeautyinside{
+	/* drama */
+#popMrSunshine, #popbeautyinside, #popHotelDelLuna, #popOurBelovedSummer, #pop2521
+{
     width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+#popFriends, #popPrisonPlaybook, #popHospitalPlaylist, #popSKYCastle, #popBecauseThisIsMyFirstLife
+{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+#pop18Again, #popTheWorldoftheMarried, #popGuardian, #popNevertheless, #popGossipGirl
+{
+	width:80%;
     height:80%;
     background:#3d3d3d;
     color:#fff;
@@ -289,8 +330,10 @@ hr{
     left: 140px;
 }
 
-#popHotelDelLuna{
-    width:80%;
+	/* movie */
+#popAboutTime, #popLaLaLand, #popParasite, #popLittleWomen, #popEternalSunshine
+{
+	width:80%;
     height:80%;
     background:#3d3d3d;
     color:#fff;
@@ -298,8 +341,72 @@ hr{
     top: 90px;
     left: 140px;
 }
+#popAssassination, #pop3Idiots, #popTheTrumanShow, #popFallinLoveatFirstKiss, #popOurTimes
+{
+	width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+#popVenom1, #popVenom2, #popSpiderMan, #popTheImitationGame, #popAlongwiththeGods
+{
+	width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+	/* original */
+#popAllofUsAreDead, #popSquidGame, #popTheQueensGambit, #popBridgerton1, #popBridgerton2
+{
+	width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+#popStrangerThings1, #popStrangerThings2, #popStrangerThings3, #popStrangerThings4, #popDP
+{
+	width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+#popMoneyHeist, #popHellbound, #popExtracurricular, #popTheKissingBooth1, #popTheKissingBooth2
+{
+	width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
+
 
 /* Watcha */
+#popcsi{
+    width:80%;
+    height:80%;
+    background:#3d3d3d;
+    color:#fff;
+    position:fixed;
+    top: 90px;
+    left: 140px;
+}
+
 
 /* Tving */
 #popliberation{
@@ -337,7 +444,6 @@ hr{
 }
 
 .main{
-/*     background-image: url(images/wenvy-logo.png); */
     background-size: cover;
     background-position: center center;
     color: white;
